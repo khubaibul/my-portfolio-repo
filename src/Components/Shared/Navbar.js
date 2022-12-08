@@ -3,10 +3,10 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const navLink = <>
-        <li className='hover:bg-yellow-500'><NavLink to="/">HOME</NavLink></li>
-        <li className='hover:bg-yellow-500'><NavLink to="/all-products">Resume</NavLink></li>
-        <li className='hover:bg-yellow-500'><NavLink to="/dashboard">Photography</NavLink></li>
-        <li className='hover:bg-yellow-500'><NavLink to="/about-us">Contact</NavLink></li>
+        <li className='hover:bg-pink-600'><NavLink to="/">HOME</NavLink></li>
+        <li className='hover:bg-pink-600'><NavLink to="ab">Resume</NavLink></li>
+        <li className='hover:bg-pink-600'><NavLink to="ab">Photography</NavLink></li>
+        <li className='hover:bg-pink-600'><NavLink to="ab">Contact</NavLink></li>
     </>
     return (
         <div className="navbar bg-transparent lg:px-36 text-white py-6">

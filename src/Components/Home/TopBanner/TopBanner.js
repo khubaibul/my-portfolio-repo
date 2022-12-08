@@ -5,7 +5,7 @@ import gradientBg from "../../../Assets/wave-haikei.svg"
 
 const TopBanner = () => {
     return (
-        <div className='lg:flex md:flex h-full justify-between p-4 rounded'
+        <div className='lg:flex md:flex h-full justify-between p-4 rounded z-50'
             style={{ backgroundImage: `url(${gradientBg})` }}
         >
             <div className='text-base-100 flex flex-col justify-center'>
