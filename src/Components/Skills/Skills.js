@@ -27,9 +27,10 @@ const Skills = () => {
             <div className="flex flex-col w-full border-opacity-100 ">
                 <div className="divider text-white text-3xl font-bold mb-10" style={{ fontFamily: "'Kanit', sans-serif" }}>My Skills</div>
             </div>
-            <div className='lg:flex justify-center px-4'>
+            {/* lg:flex lg:flex-row justify-center px-4 md:flex md:flex-col sm:flex sm:flex-col sm:gap-y-10 */}
+            <div className='lg:grid grid-cols-3 px-4'>
                 <div>
-                    <div className="card w-full bg-white border p-4 rounded-none rounded-l hover:rounded hover:scale-y-110">
+                    <div className="card w-full bg-white border p-4 rounded-none rounded-l hover:rounded hover:scale-y-110 hover:bg-pink-600 transition duration-200">
                         <div className="card-body mb-4">
                             <img className='w-24 mx-auto' src={design} alt="design" />
                             <h2 className="text-center text-3xl font-bold" style={{ fontFamily: "'Kanit', sans-serif" }}>Design</h2>
@@ -55,7 +56,7 @@ const Skills = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="card w-full bg-white border rounded-none hover:rounded hover:scale-y-110 p-4">
+                    <div className="card w-full bg-white border rounded-none hover:rounded hover:scale-y-110 p-4 hover:bg-pink-600 transition duration-200">
                         <div className="card-body mb-4">
                             <img className='w-24 mx-auto' src={develope} alt="design" />
                             <h2 className="text-center text-3xl font-bold" style={{ fontFamily: "'Kanit', sans-serif" }}>Develope</h2>
@@ -81,7 +82,7 @@ const Skills = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="card w-full bg-white border rounded-none p-4 rounded-r hover:rounded hover:scale-y-110">
+                    <div className="card w-full bg-white border rounded-none p-4 rounded-r hover:rounded hover:scale-y-110 hover:bg-pink-600 transition duration-200">
                         <div className="card-body mb-4">
                             <img className='w-24 mx-auto' src={backEnd} alt="design" />
                             <h2 className="text-center text-3xl font-bold" style={{ fontFamily: "'Kanit', sans-serif" }}>Back End</h2>

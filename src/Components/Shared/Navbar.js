@@ -13,13 +13,13 @@ const Navbar = () => {
         } to="/">HOME</NavLink></li>
         <li className='hover:bg-pink-600'><NavLink className={({ isActive }) =>
             isActive ? activeClassName : undefined
-        } to="ab">Resume</NavLink></li>
+        } to="/resume">Resume</NavLink></li>
         <li className='hover:bg-pink-600'><NavLink className={({ isActive }) =>
             isActive ? activeClassName : undefined
-        } to="ab">Photography</NavLink></li>
+        } to="/photography">Photography</NavLink></li>
         <li className='hover:bg-pink-600'><NavLink className={({ isActive }) =>
             isActive ? activeClassName : undefined
-        } to="ab">Contact</NavLink></li>
+        } to="/contact">Contact</NavLink></li>
     </>
     return (
         <div className="navbar bg-transparent lg:px-36 text-white py-6">
