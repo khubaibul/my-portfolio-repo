@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     let activeStyle = {
@@ -8,23 +8,16 @@ const Navbar = () => {
     };
     let activeClassName = "underline";
     const navLink = <>
-        <li className='hover:bg-pink-600'><NavLink style={({ isActive }) =>
-            isActive ? activeStyle : activeClassName
-        } to="/">HOME</NavLink></li>
-        <li className='hover:bg-pink-600'><NavLink className={({ isActive }) =>
-            isActive ? activeClassName : undefined
-        } to="/resume">Resume</NavLink></li>
-        <li className='hover:bg-pink-600'><NavLink className={({ isActive }) =>
-            isActive ? activeClassName : undefined
-        } to="/photography">Photography</NavLink></li>
-        <li className='hover:bg-pink-600'><NavLink className={({ isActive }) =>
-            isActive ? activeClassName : undefined
-        } to="/contact">Contact</NavLink></li>
+        <li className='hover:bg-pink-600'><NavLink to="/">HOME</NavLink></li>
+        <li className='hover:bg-pink-600'><NavLink to="/resume">Resume</NavLink></li>
+        <li className='hover:bg-pink-600'><NavLink to="/blogs">Blogs</NavLink></li>
+        <li className='hover:bg-pink-600'><NavLink to="/contact">Contact Me</NavLink></li>
+        <li className='hover:bg-pink-600'><NavLink to="/about">About Me</NavLink></li>
     </>
     return (
-        <div className="navbar bg-transparent lg:px-36 text-white py-6">
-            <div className="form-control hidden lg:block">
-                <p className='lg:text-lg font-bold text-white'>KHUBAIBUL ISLAM SHAKIB</p>
+        <div className="navbar bg-[#002233] lg:px-36 text-white py-6 sticky top-0 z-50">
+            <div className="form-control hidden lg:block navbar-start">
+                <p className='lg:text-xl font-bold text-white'><Link to="/">KHUBAIBUL ISLAM SHAKIB</Link></p>
             </div>
             <div className="navbar-start p-0">
                 <div className="dropdown">
@@ -41,8 +34,8 @@ const Navbar = () => {
                     {navLink}
                 </ul>
             </div>
-            <div className="form-control lg:hidden">
-                <p className='lg:text-lg font-bold text-white'>KHUBAIBUL ISLAM SHAKIB</p>
+            <div className="form-control lg:hidden navbar-end">
+                <p className='lg:text-lg font-bold text-white'><Link to="/">KHUBAIBUL ISLAM SHAKIB</Link></p>
             </div>
         </div>
     );

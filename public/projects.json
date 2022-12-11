@@ -1,0 +1,258 @@
+[
+	{
+		"_id": 1,
+		"name": "CYCLE SELLING WEBSITE",
+		"description": "Cycle selling website, where sellers can give sell posts for their used cycle. And the buyer can buy used cycle. Difference dashboards for users, sellers and admin.",
+		"live-website": "https://deals-of-the-day-61353.web.app/",
+		"client-site-code": "https://github.com/KIShakib/deals-of-the-day-client-site-repo",
+		"server-site-code": "https://github.com/KIShakib/deals-of-the-day-server-site-repo",
+		"FEATURES": [
+			"A website for used cycle sales and buys.",
+			"Users can see products for his/her and can book them.",
+			"In Dashboard, the user can see My Orders. Where he/she can pay for the product and buy it.",
+			"Also, users can add to the wishlist for the next.",
+			"This website have also seller system. A user can be a seller while he signup.",
+			"A seller can give a sell post with all information of his/her product.",
+			"A seller can also advertise product, which will show in advertise section. Also seller can delete his/her product.",
+			"There is also admin system. An admin can control whole website. Admin can remove any user or seller. Also admin can verify the seller.",
+			"All user+seller+admin are stored in database.",
+			"Products are also stored in database."
+		],
+		"Technologies": [
+			"Tailwind ( As CSS Framework )",
+			"DaisyUI ( As Tailwind Component Library )",
+
+			"React",
+
+			"Node.js",
+
+			"Express.js",
+
+			"MongoDB ( For Database )",
+
+			"Firebase ( For Authentication )",
+			{
+				"NPM": [
+					"React-Router-DOM",
+					"TanStack",
+					"Axios",
+					"Slick Carousel",
+					"Loader Spinner",
+					"React-Rating",
+					"Hot-Toast",
+					"Stripe",
+					"React-Fontawesome",
+					"JWT"
+				]
+			},
+			"Card Payment ( Stripe )"
+		],
+		"image": [
+			"https://i.ibb.co/jyWj602/deals-of-the-day-1.jpg",
+			"https://i.ibb.co/BVBy7B3/deals-of-the-day-2.jpg",
+			"https://i.ibb.co/t3zKLPy/deals-of-the-day-3.jpg",
+			"https://i.ibb.co/3N0J8c0/deals-of-the-day-4.jpg"
+		]
+	},
+	{
+		"_id": 2,
+		"name": "HOTEL BOOKING WEBSITE",
+		"description": "A website for booking hotel suites by location. Where a user can book a hotel suite of his choice.",
+		"live-website": "https://bookingbd-com.web.app/",
+		"client-site-code": "https://github.com/KIShakib/booking-bd",
+		"server-site-code": "https://github.com/KIShakib/bookingbd-server",
+		"FEATURES": [
+			"User can book their desire hotel based on location.",
+			"Details are give by using many functionalities about every hotel.",
+			"After booking their suite, there is a payment page with total price.",
+			"User can see all hotels based on location",
+			"User can see details of every Hotel and can see how many types of suite are there."
+		],
+		"Technologies": [
+			"HTML5",
+			"Tailwind",
+
+			"React",
+
+			"Node.js",
+
+			"Express.js",
+
+			"Firebase ( For Authentication )",
+			{
+				"NPM": [
+					"React-Router-DOM",
+					"Loader Spinner",
+					"React-Rating",
+					"Hot-Toast",
+					"React Image Magnify",
+					"React-Fontawesome",
+					"React DatePicker"
+				]
+			},
+			"Card Payment ( Stripe )"
+		],
+		"image": [
+			"https://i.ibb.co/HqtdrTY/bookingbd1.jpg",
+			"https://i.ibb.co/TPHy3S8/bookingbd2.jpg",
+			"https://i.ibb.co/jHYJcrF/bookingbd3.jpg",
+			"https://i.ibb.co/0Yvbtvq/bookingbd4.jpg"
+		]
+	},
+	{
+		"_id": 3,
+		"name": "FOOD E-COMMERCE",
+		"description": "Food e-commerce website. Where food lover can buy their desire food based on category. Also admin can add food from dashboard.",
+		"live-website": "https://shakibs-kitchen.web.app/",
+		"client-site-code": "https://github.com/KIShakib/e-commerce-site-client",
+		"server-site-code": "https://github.com/KIShakib/e-commerce-site-server",
+		"FEATURES": [
+			"Food selling based e-commerce website.",
+			"User can interact by giving their real time review.",
+			"There is an admin dashboard from where admin can add food.",
+			"Better UI with some of good functionalities.",
+			"Admin can control all over the website."
+		],
+		"Technologies": [
+			"HTML5",
+			"Tailwind",
+			"DaisyUI ",
+			"React",
+			"Node.js",
+			"Express.js",
+			"MongoDB ( As Database )",
+			"Firebase ( For Authentication )",
+			"Vercel ( For Deploy )",
+			{
+				"NPM": [
+					"React-Router-DOM",
+					"Loader Spinner",
+					"React-Rating",
+					"Hot-Toast",
+					"React-Photo-View",
+					"React-Fontawesome",
+					"React-Icons"
+				]
+			}
+		],
+		"image": [
+			"https://i.ibb.co/dgff4gK/food-ecommerce1.jpg",
+			"https://i.ibb.co/99ZWT13/food-ecommerce2.jpg",
+			"https://i.ibb.co/cg2QzKD/food-ecommerce3.jpg",
+			"https://i.ibb.co/VCXBR50/food-ecommerce4.jpg"
+		]
+	},
+	{
+		"_id": 4,
+		"name": "Dentist Booking Website",
+		"description": "An Website where patient can see and book appointment slot to meet with dentist. Patient can select on his/her required day and time.",
+		"live-website": "https://doctors-portal-63a0f.web.app/",
+		"client-site-code": "https://github.com/KIShakib/doctors-portal",
+		"server-site-code": "https://github.com/KIShakib/doctors-portal-server",
+		"FEATURES": [
+			"A website for a dentist.",
+			"Patient can book their slot to meet the dentist.",
+			"Patient can see when his/her appointment with doctor.",
+			"For successfully book the slot, patient must have to pay.",
+			"The slot is visible by availability.",
+			"Patient can book by on her/his required day."
+		],
+		"Technologies": [
+			"HTML5",
+			"Tailwind",
+			"DaisyUI ",
+			"React",
+			"Node.js",
+			"Express.js",
+			"MongoDB ( As Database )",
+			"Firebase ( For Authentication )",
+			"Vercel ( For Deploy )",
+			{
+				"NPM": [
+					"React-Router-DOM",
+					"Date-FNS",
+					"Slick Carousel",
+					"Loader Spinner",
+					"React-Rating",
+					"Hot-Toast",
+					"Stripe",
+					"React-Fontawesome"
+				]
+			},
+			"JWT",
+			"Card Payment ( Stripe )"
+		],
+		"image": [
+			"https://i.ibb.co/pvjgHzm/dentist-1.jpg",
+			"https://i.ibb.co/LhP6JL7/dentist-2.jpg",
+			"https://i.ibb.co/N2YDV73/dentist-3.jpg",
+			"https://i.ibb.co/hVnVBT6/dentist-4.jpg"
+		]
+	},
+	{
+		"_id": 5,
+		"name": "Shopping E-Commerce",
+		"description": "An E-Commerce Website where user can see and buy various kind of products. After adding into cart he/she can see his/her products in order section.",
+		"live-website": "https://emajon-shopping-app.web.app/",
+		"client-site-code": "https://github.com/KIShakib/not-amazon.repo",
+		"server-site-code": "https://github.com/KIShakib/not-emazon-server-site-repo",
+		"FEATURES": [
+			"An E-Commerce Website.",
+			"Users can see products for his/her and can buy them.",
+			"In Dashboard, the user can see My Orders. Where he/she can pay for the product and buy it.",
+			"Products are also stored in database.",
+			"Good looking UI with lot of functionalities."
+		],
+		"Technologies": [
+			"HTML5",
+			"Tailwind",
+			"DaisyUI ",
+			"React",
+			"Node.js",
+			"Express.js",
+			"MongoDB ( As Database )",
+			"Firebase ( For Authentication )",
+			"Vercel ( For Deploy )",
+			{
+				"NPM": ["React-Router-DOM", "Pagination"]
+			}
+		],
+		"image": [
+			"https://i.ibb.co/0jHgkwP/Screenshot-2022-12-11-183014.jpg",
+			"https://i.ibb.co/mq1Czqr/Screenshot-2022-12-11-183106.jpg",
+			"https://i.ibb.co/m5swNfF/Screenshot-2022-12-11-183130.jpg",
+			"https://i.ibb.co/6Y275T1/Screenshot-2022-12-11-183234.jpg"
+		]
+	},
+	{
+		"_id": 6,
+		"name": "Top Gun Store",
+		"description": "A website where are stored lots of gun. User can see in details of every gun. Then he/she can purchase it by adding to cart.",
+		"live-website": "https://top-gun-store.netlify.app/",
+		"client-site-code": "https://github.com/KIShakib/gun-shop.repo",
+		"server-site-code": "https://github.com/KIShakib/gun-shop.repo",
+		"FEATURES": [
+			"A website for Gun sell",
+			"Users can see gun for his/her and can buy them.",
+			"In Dashboard, the user can see My Orders. Where he/she can pay for the product and buy it.",
+			"Every Gun's details are visible in modal",
+			"Good looking UI with lot of functionalities."
+		],
+		"Technologies": [
+			"HTML5",
+			"Tailwind",
+			"DaisyUI ",
+			"React",
+			"Netlify ( For Deploy )",
+			{
+				"NPM": []
+			}
+		],
+		"image": [
+			"https://i.ibb.co/FgfhmNq/gun-1.jpg",
+			"https://i.ibb.co/m5JKsP4/gun-2.jpg",
+			"https://i.ibb.co/m5swNfF/Screenshot-2022-12-11-183130.jpg",
+			"https://i.ibb.co/QHWk9qZ/gun-3.jpg"
+		]
+	}
+]
