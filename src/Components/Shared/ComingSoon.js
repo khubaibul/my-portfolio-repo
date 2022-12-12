@@ -1,6 +1,9 @@
 import React from 'react';
+import useDynamicTitle from './Hooks/DynamicTitle/useDynamicTitle';
 
 const ComingSoon = () => {
+
+    useDynamicTitle("Blogs")
     return (
         <div>
             <div className='lg:flex hidden justify-center items-center h-screen text-purple-600'>

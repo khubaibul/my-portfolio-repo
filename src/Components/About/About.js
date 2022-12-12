@@ -1,6 +1,10 @@
 import React from 'react';
+import useDynamicTitle from '../Shared/Hooks/DynamicTitle/useDynamicTitle';
 
 const About = () => {
+
+    useDynamicTitle("About")
+
     return (
         <div class="container bg-neutral mx-auto w-full h-full">
             <div class="relative wrap overflow-hidden p-10 h-full">
