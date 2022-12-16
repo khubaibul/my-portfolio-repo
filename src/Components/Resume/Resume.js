@@ -191,11 +191,11 @@ const Resume = () => {
                             <div>
                                 <h4 className='font-semibold'>FEATURES</h4>
                                 <div className='pl-6'>
-                                    <p><span className='text-xs'>⚫</span> Seller can buy used product which is posted by seller.
+                                    <p><span className='text-xs'>⚫</span> User can buy used product which is posted by seller.
                                     </p>
-                                    <p><span className='text-xs'>⚫</span> Seller can post their post and also can advertise.
+                                    <p><span className='text-xs'>⚫</span> Seller can post for selling their cycle and also can advertise.
                                     </p>
-                                    <p><span className='text-xs'>⚫</span> Payment system implement.
+                                    <p><span className='text-xs'>⚫</span> Payment system implement by using Stripe.
                                     </p>
                                 </div>
                             </div>
