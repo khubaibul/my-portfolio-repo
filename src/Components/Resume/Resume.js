@@ -264,7 +264,7 @@ const Resume = () => {
             </div>
 
             <div className='flex justify-center mb-8'>
-                <button className='btn btn-outline rounded-none btn-accent'><a href="../../Assets/Khubaibul-Islam-Shakib-Web-Developer-Resume.pdf" download="">Download Resume</a></button>
+                <button className='btn btn-outline rounded-none btn-accent'><a href="../../Assets/Khubaibul Islam Shakib's Web Developer Resume.pdf" download="">Download Resume</a></button>
             </div>
         </div>
     );
