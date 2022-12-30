@@ -4,6 +4,10 @@ import topBannerImage from "../../../Assets/@ki_shakib.png";
 import gradientBg from "../../../Assets/wave-haikei.svg"
 
 const TopBanner = () => {
+
+    const name = <h1 style={{ fontFamily: "'Satisfy', sans-serif" }}>Khubaibul Islam Shakib</h1>
+
+
     return (
         <div className='lg:flex md:flex h-full justify-between p-4 rounded mt-16'
             style={{ backgroundImage: `url(${gradientBg})` }}
@@ -12,16 +16,24 @@ const TopBanner = () => {
                 <h1 className='lg:text-3xl text-pink-600 font-bold text-center mb-5 sm:mb-5 md:mb-5 lg:mb-0'>
                     <Typewriter
                         onInit={(typewriter) => {
-                            typewriter.typeString("HI! I'M KHUBAIBUL ISLAM SHAKIB...")
+                            typewriter.typeString(`Hi! I'm <strong>Khubaibul Islam Shakib</strong>`)
                                 .callFunction(() => {
                                     console.log('String typed out!');
                                 })
                                 .start(true)
-                                .pauseFor(2500)
+                                .pauseFor(1200)
+                                .deleteChars(22)
+                                .typeString("<strong>A Web Developer...</strong>")
                                 .callFunction(() => {
                                     console.log('All strings were deleted');
                                 })
-                                .start();
+                                .start(true)
+                                .pauseFor(1200)
+                                .deleteChars(18)
+                                .typeString("<strong>Khubaibul Islam Shakib</strong>")
+                                .callFunction(() => {
+                                    console.log('All strings were deleted');
+                                })
                         }}
                     />
                 </h1>

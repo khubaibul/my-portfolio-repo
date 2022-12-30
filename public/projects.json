@@ -254,5 +254,66 @@
 			"https://i.ibb.co/m5swNfF/Screenshot-2022-12-11-183130.jpg",
 			"https://i.ibb.co/QHWk9qZ/gun-3.jpg"
 		]
+	},
+	{
+		"_id": 6,
+		"name": "Select Best V",
+		"description": "A website where user can create his/her own Five A Side team by his favourite player from FC Barcelona",
+		"live-website": "https://fascinating-kashata-c7b661.netlify.app/",
+		"client-site-code": "https://github.com/KIShakib/fcb-best-V",
+		"server-site-code": "https://github.com/KIShakib/fcb-best-V",
+		"FEATURES": [
+			"A website for selecting best V.",
+			"Users can create his/her own team.",
+			"Users can create team manager and coach.",
+			"User can calculate total cost."
+		],
+		"Technologies": [
+			"HTML5",
+			"CSS3",
+			"Bootstrap ",
+			"JavaScript",
+			"Netlify ( For Deploy )"
+		],
+		"NPM": [],
+		"image": [
+			"https://i.ibb.co/ckY8BsH/select-best-v.jpg",
+			"https://i.ibb.co/hKDGpV8/home-banner.jpg",
+			"https://i.ibb.co/pbg7GJx/players.jpg",
+			"https://i.ibb.co/NrF3fMP/cost.jpg"
+		]
+	},
+	{
+		"_id": 7,
+		"name": "Daily Politics News",
+		"description": "A news website where reader can read daily top news around the world.",
+		"live-website": "https://daily-politics-news.web.app/",
+		"client-site-code": "https://github.com/KIShakib/daily-politics-news-client-site",
+		"server-site-code": "https://github.com/KIShakib/daily-politics-news-server-site",
+		"FEATURES": [
+			"A newsletter website.",
+			"Reader can read news across all over the world.",
+			"Reader can add any news in his/her wishlist.",
+			"Reader can login via social media or even email sign-up"
+		],
+		"Technologies": [
+			"HTML5",
+			"CSS3",
+			"Bootstrap ",
+			"React",
+			"Firebase ( For Deploy And Authentication)"
+		],
+		"NPM": [
+			"React-Bootstrap",
+			"React-Router-DOM",
+			"React Hot Toast",
+			"React Icons"
+		],
+		"image": [
+			"https://i.ibb.co/PxqkFg7/daily-politics.jpg",
+			"https://i.ibb.co/cNWcnRg/footer.jpg",
+			"https://i.ibb.co/y4jCd10/news-in-details.jpg",
+			"https://i.ibb.co/LSHbGr4/sign-up.jpg"
+		]
 	}
 ]

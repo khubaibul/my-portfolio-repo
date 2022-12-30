@@ -17,12 +17,12 @@ const MyProjects = () => {
             <h1 className="divider text-white text-3xl font-bold mb-6" style={{ fontFamily: "'Kanit', sans-serif" }}>My Projects
             </h1>
             <p className='lg:text-xl text-white text-center mb-10'>Here are a few past design projects I've worked on. </p>
-            <div className='lg:grid grid-cols-3 lg:gap-x-2 lg:gap-y-8 px-4'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-x-2 gap-y-8 px-4'>
                 {
-                    myProjects?.map(project =>
+                    myProjects?.slice(0, 6).map(project =>
                         <div key={project._id}>
                             <div aria-label='View Item'>
-                                <div className='rounded-none relative overflow-hidden border rounded hover:rounded hover:scale-y-110 transition duration-200 transform shadow-lg hover:shadow-2xl'>
+                                <div className='relative overflow-hidden border rounded hover:rounded hover:scale-y-110 transition duration-500 transform shadow-lg hover:shadow-2xl'>
                                     <img
                                         className='object-cover w-full h-56'
                                         src={project.image[0]}
@@ -44,6 +44,10 @@ const MyProjects = () => {
                         </div>
                     )
                 }
+            </div>
+            <div className="btn-group grid grid-cols-2 mt-8 lg:w-[30%] md:w-[50%] sm:w-[70%] w-[70%] mx-auto">
+                <button className="btn bg-gradient-to-r from-purple-600 to-pink-500">Previous page</button>
+                <button className="btn bg-gradient-to-r from-pink-500 to-purple-600">Next</button>
             </div>
         </div>
     );
