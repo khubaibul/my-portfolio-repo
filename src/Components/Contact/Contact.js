@@ -38,7 +38,7 @@ const Contact = () => {
                             <input type="text" id="username" name='email' className="bg-gray-200 pl-12 py-2 md:py-4 focus:outline-none w-full" placeholder="Your Email" required />
                         </div>
                         <div className="flex items-center text-lg mb-6 md:mb-8">
-                            <img src={message} className="absolute ml-3" width="24" viewBox="0 0 24 24" />
+                            <img src={message} className="absolute ml-3 -mt-6" width="24" viewBox="0 0 24 24" />
                             <textarea type="text" id="username" name='message' className="bg-gray-200 pl-12 py-2 md:py-4 focus:outline-none w-full" placeholder="Your Message" />
                         </div>
                         <button className="bg-gradient-to-b from-gray-700 to-gray-900 font-medium p-2 md:p-4 text-white uppercase w-full">Submit</button>

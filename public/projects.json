@@ -256,7 +256,7 @@
 		]
 	},
 	{
-		"_id": 6,
+		"_id": 7,
 		"name": "Select Best V",
 		"description": "A website where user can create his/her own Five A Side team by his favourite player from FC Barcelona",
 		"live-website": "https://fascinating-kashata-c7b661.netlify.app/",
@@ -284,7 +284,7 @@
 		]
 	},
 	{
-		"_id": 7,
+		"_id": 8,
 		"name": "Daily Politics News",
 		"description": "A news website where reader can read daily top news around the world.",
 		"live-website": "https://daily-politics-news.web.app/",
@@ -314,6 +314,41 @@
 			"https://i.ibb.co/cNWcnRg/footer.jpg",
 			"https://i.ibb.co/y4jCd10/news-in-details.jpg",
 			"https://i.ibb.co/LSHbGr4/sign-up.jpg"
+		]
+	},
+	{
+		"name": "CSE FROM HOME",
+		"description": "A online learning platform where students can enroll their desire course.",
+		"live-website": "https://cse-from-home-app.web.app",
+		"client-site-code": "https://github.com/KIShakib/learning-platform-client",
+		"server-site-code": "https://github.com/KIShakib/learning-platform-server",
+		"FEATURES": [
+			"A website for online course.",
+			"Student can see in details every courses.",
+			"Student can download in pdf of every courses.",
+			"After selecting his/her courses, he/she also can pay online via SSL Commerz."
+		],
+		"Technologies": [
+			"HTML5",
+			"CSS3",
+			"Tailwind ( As CSS Framework )",
+			"DaisyUI ( As Tailwind Component Library )",
+			"React",
+			"Firebase ( For Deploy And Authentication)",
+			"Dark/Light toggle theme"
+		],
+		"NPM": [
+			"React-PDF",
+			"React-Router-DOM",
+			"React Hot Toast",
+			"React Icons",
+			"React-Icons"
+		],
+		"image": [
+			"https://i.ibb.co/g7pkhp5/cse-from-home-1.jpg",
+			"https://i.ibb.co/jzSWsZg/cse-from-home-2.jpg",
+			"https://i.ibb.co/F4Xqdv5/cse-from-home-3.jpg",
+			"https://i.ibb.co/HH66gB6/cse-from-home-4.jpg"
 		]
 	}
 ]
